@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F4DE7E01-910A-F2F0-561A-5161CE615B3F" name="Local">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>D0777FC1-06E7-F790-AB7F-66E6AFC3FD50</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_area" id="1E0B53DD-86D1-5707-5737-138985C0ED5F">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>78B0FAF8-11AA-FB80-60C4-1D5112CA26A4</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_local" id="BD861D3C-1131-95E2-F66C-6217D22A49BC">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>903306A6-EDB1-201B-9FA6-D93DA7FE4774</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_vulnerabilidade" id="A45518DC-6BCB-8A3F-9E11-53F22AF80EAF">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>3DF77F79-67AE-90DD-A2F5-BBB9E0CBD68F</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F18C1DE0-78BB-55EF-E85E-9A0B8E2C3946" name="PK_Local">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>8FFC26A4-6787-22C9-C62C-356EBA167028</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1E0B53DD-86D1-5707-5737-138985C0ED5F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

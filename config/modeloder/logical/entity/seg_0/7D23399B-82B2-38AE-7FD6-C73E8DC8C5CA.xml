@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7D23399B-82B2-38AE-7FD6-C73E8DC8C5CA" name="Alerta">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 23:14:33 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_alerta" id="8CBB0732-F16D-7C50-479E-084216396182">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 23:15:11 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt alerta" id="0E55CD72-6620-5D08-68F0-18F2AF3C5A20">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 23:15:31 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_nivel" id="D898632E-235E-9EED-5D7E-0D5BCB6EDF89">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 23:15:45 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tp_origem" id="F7919A19-C455-13FA-1153-CFEF57E84F96">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 19:46:54 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ds_obs	" id="0A6B1204-951E-2065-190A-3BAB002134CB">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 19:49:40 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_local" id="95B016B7-1C29-C0A3-D626-B2782AC40282">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 19:55:53 UTC</createdTime>
+<generatorID>103EA0BC-D4E4-87B6-381E-97731BA26B7F</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<referedAttribute>78B0FAF8-11AA-FB80-60C4-1D5112CA26A4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_usuario" id="32FDE21A-5932-7C0C-770E-550626033BAB">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 19:58:30 UTC</createdTime>
+<generatorID>D5E13944-91D2-7773-DD5E-B18589D5E615</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<referedAttribute>FF16C2E0-3F68-CABF-5F2E-55FA58B1C08D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="32315A0C-4E1C-F315-10DB-E4E700264974" name="Alerta PK">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 19:26:29 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8CBB0732-F16D-7C50-479E-084216396182</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

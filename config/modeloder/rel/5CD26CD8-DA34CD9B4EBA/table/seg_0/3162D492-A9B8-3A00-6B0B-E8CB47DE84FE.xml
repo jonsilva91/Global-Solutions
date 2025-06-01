@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3162D492-A9B8-3A00-6B0B-E8CB47DE84FE" name="Sensor">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>6E89930D-B9FF-9C16-30A2-93C9AAA7D6FE</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_sensor" id="8203F46B-D1B1-F4FC-1D93-0DEE6651578D">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>73DCE439-4AE9-7FE6-07C6-4908D8AFAD6F</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_sensor" id="D156E4E1-EDBC-2745-731F-3FDF18D586F7">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>FCAC3368-8F60-6295-D438-C4A9A26B5B9B</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nm_modelo" id="57886C84-2A12-2240-CE9F-9562FC811758">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>8A90F78C-1E4B-2522-0C6A-724E4C834C7E</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_area" id="3012899F-0462-C4C5-A796-DF26B236D0A1">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>E02F15A6-F59A-9AB7-5567-2C79EDAB815D</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="272A1A0D-5855-4F21-C835-AFF95AB1C0D9" referredColumn="1E0B53DD-86D1-5707-5737-138985C0ED5F"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A43CA8D-3EF5-D1A5-4CBC-09DECC91287A" name="PK_Sensor">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>9F59EBD9-D72F-FE42-256E-834995DC9DA7</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8203F46B-D1B1-F4FC-1D93-0DEE6651578D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="526825B8-F0F2-43C5-93A1-18298F54CA96" name="FK_Sensor_Local">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>48ED1B62-84BB-BD87-C5E7-F7B7858A2B03</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3012899F-0462-C4C5-A796-DF26B236D0A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

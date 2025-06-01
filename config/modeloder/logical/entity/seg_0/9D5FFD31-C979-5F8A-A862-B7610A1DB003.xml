@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9D5FFD31-C979-5F8A-A862-B7610A1DB003" name="Leitura_Sensor">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 20:38:24 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cd_leitura" id="84AC077D-A2E7-F6CC-76C6-85A65F6A169C">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 20:38:39 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dt_leitura" id="1ED83B5A-4592-BE6D-1A96-9CDA548DF25C">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 20:39:24 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vl_valor" id="501A036B-1C70-33D8-A434-06C9259BDFCE">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 20:39:59 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cd_sensor" id="AFB9CDAA-F711-F8A7-724D-4724B43A832E">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 19:22:17 UTC</createdTime>
+<generatorID>71CBD16D-4D18-B872-532A-C0584C3F4052</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<referedAttribute>73DCE439-4AE9-7FE6-07C6-4908D8AFAD6F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD919E59-97C1-6276-76C8-E2AF4D6734A7" name="Leitura_Sensor PK">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 19:07:34 UTC</createdTime>
+<ownerDesignName>modeloder</ownerDesignName>
+<engineerTo>
+<item key="5CD26CD8-5E80-BBA4-0498-DA34CD9B4EBA" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AFB9CDAA-F711-F8A7-724D-4724B43A832E</attributeRef>
+<attributeRef>84AC077D-A2E7-F6CC-76C6-85A65F6A169C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

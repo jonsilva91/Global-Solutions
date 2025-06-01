@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="modeloder" id="C590E66E-6DCF-7FD1-91C2-0CA8CD1A852C" version="3.5">
+<createdBy>joao.oliveira</createdBy>
+<createdTime>2025-04-20 18:08:20 UTC</createdTime>
+<ownerDesignName>der</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C590E66E-6DCF-7FD1-91C2-0CA8CD1A852C</designId>
+</OSDM_Design>

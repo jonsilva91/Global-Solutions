@@ -1,0 +1,136 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A992620-5E9A-8D37-BBCF-1005125E7D30" name="Alerta">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>7D23399B-82B2-38AE-7FD6-C73E8DC8C5CA</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cd_alerta" id="4B167E26-71BE-4065-C494-152C1DEC89D9">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>8CBB0732-F16D-7C50-479E-084216396182</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dt_alerta" id="FB340852-2E27-8ED6-203C-78088B689F66">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>0E55CD72-6620-5D08-68F0-18F2AF3C5A20</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_nivel" id="0FCAA77A-46BD-ADBD-45A0-86C0ACB333C7">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>D898632E-235E-9EED-5D7E-0D5BCB6EDF89</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tp_origem" id="63909F27-4C6A-7534-D3B3-5F75168FDBFF">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>F7919A19-C455-13FA-1153-CFEF57E84F96</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ds_obs" id="B3ED3E3D-1CD8-B76A-E08A-2DD6CF7FD491">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>0A6B1204-951E-2065-190A-3BAB002134CB</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cd_area" id="A6DD52A5-3CBF-61E7-34A9-34F27E6010CD">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>95B016B7-1C29-C0A3-D626-B2782AC40282</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A2C70F5-DE8E-09AF-8290-091E85177774" referredColumn="1E0B53DD-86D1-5707-5737-138985C0ED5F"/>
+</associations>
+</Column>
+<Column name="cd_usuario" id="139FEE75-9F9E-7F8F-EC35-B9CFF35F2852">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>32FDE21A-5932-7C0C-770E-550626033BAB</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AFD6F77E-FDF6-8770-CA8E-868B0E3EAE7C" referredColumn="0349125F-B00B-03B8-6BBD-04AC0B09DBC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1FFD186A-FC37-1CE0-6DB0-822858AB343B" name="PK_Alerta">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>32315A0C-4E1C-F315-10DB-E4E700264974</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4B167E26-71BE-4065-C494-152C1DEC89D9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D3FD1207-F8D0-E702-E5C7-91A9F387656B" name="FK_Alerta_Usuario">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>D5E13944-91D2-7773-DD5E-B18589D5E615</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="139FEE75-9F9E-7F8F-EC35-B9CFF35F2852"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DCC32C2-86CE-397D-DE24-21100E6E76FD" name="FK_Alerta_Local">
+<createdBy>JonasLuisdaSilva</createdBy>
+<createdTime>2025-06-01 20:07:05 UTC</createdTime>
+<generatorID>103EA0BC-D4E4-87B6-381E-97731BA26B7F</generatorID>
+<ownerDesignName>modeloder</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6DD52A5-3CBF-61E7-34A9-34F27E6010CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
