@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+sqlalchemy
+oracledb
+python-dotenv
+dash>=2.13.0
+plotly>=5.15.0
+pandas>=2.0.0
+requests>=2.30.0
