@@ -35,3 +35,7 @@ cd src && uvicorn backend.app:app --reload
 ```bash
 python src/dashboard/app.py
 ```
+
+### Projeto ESP32
+
+[Demonstração](esp32-project/README.md)
