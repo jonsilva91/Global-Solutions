@@ -56,3 +56,6 @@ float run_model_simulado(float h, float t) {
 - Monitoramento em tempo real da temperatura e umidade
 - Alerta quando a temperatura está muito alta ou muito baixa
 - Previsão de risco de enchente baseada nos dados dos sensores 
+
+
+[Veja o projeto online no Wokwi](https://wokwi.com/projects/433036530323602433)
