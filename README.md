@@ -10,5 +10,28 @@
 
 ## Equipe Rocket
 
- proposta, estrutura e descrição do projeto estão contidas no PDF:  
+A proposta, estrutura e descrição do projeto estão contidas no PDF:  
 [Flood Sentinel – Sistema de Alerta de Enchentes Online e Offline](./document/Flood%20Sentinel%20-%20Sistema%20de%20Alerta%20de%20Enchentes%20Online%20e%20Offline.pdf)
+
+---
+
+## 🔧 Como executar o código
+
+### Pré-requisitos
+
+- **Python 3.x**  
+- (Opcional) ambiente virtual criado e ativado  
+- Dependências instaladas:
+
+```bash
+pip install -r requirements.txt
+```
+- iniciar backend:
+```bash
+cd src && uvicorn backend.app:app --reload
+
+```
+- iniciar dashboard:
+```bash
+python src/dashboard/app.py
+```
