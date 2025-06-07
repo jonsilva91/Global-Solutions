@@ -7,6 +7,7 @@
 
 #define pinoDHT 23
 #define modelo DHT22
+#define BUZZER_PIN 33
 
 // Configurações modelo
 #define DHTPIN 15
@@ -51,6 +52,9 @@ float run_model_simulado(float temp, float hum) {
 
 void setup() {
   Serial.begin(115200);
+
+  // setub buzzer
+  pinMode(BUZZER_PIN, OUTPUT);
 
   // setup Wifi
   WiFi.begin(ssid, password);
@@ -132,8 +136,12 @@ void loop() {
   lcd.setCursor(0, 1);
   if (predict >= 1.0) {
     lcd.print("ALERTA ENCHENTE");
+    digitalWrite(BUZZER_PIN, HIGH);
+    delay(5000);
   } else {
     lcd.print("Nivel OK!");
+    digitalWrite(BUZZER_PIN, LOW);
+    delay(5000);
   }
 
   delay(1000);
