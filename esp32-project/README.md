@@ -4,6 +4,20 @@
 
 Este projeto implementa um sistema de monitoramento de enchentes utilizando um ESP32, sensor de temperatura e umidade DHT22 e sensor ultrassônico HC-SR04. O sistema utiliza os dados dos sensores para prever possíveis riscos de enchente.
 
+## Estrutura do Projeto
+
+```
+esp32-project/
+├── README.md              # Documentação do projeto
+├── sketch.ino             # Código principal do Arduino para ESP32
+├── flood_model.h          # Biblioteca com modelo de previsão de enchentes
+├── diagram.json           # Configuração do diagrama de circuito para Wokwi
+└── assets/                # Pasta com recursos visuais
+    ├── demo-esp32.gif     # Demonstração visual do funcionamento
+    ├── project-libraries.png  # Imagem das bibliotecas utilizadas
+    └── esp-project.png    # Imagem do projeto completo
+```
+
 ## Ambiente de Simulação
 
 Estamos utilizando o emulador [Wokwi](https://wokwi.com/) para simular o funcionamento do ESP32 e seus componentes.
@@ -29,7 +43,7 @@ float run_model_simulado(float h, float t) {
 
 ## Demonstração
 
-![Demonstração do Sistema](demo-esp32.gif)
+![Demonstração do Sistema](assets/demo-esp32.gif)
 
 ## Como Executar
 
